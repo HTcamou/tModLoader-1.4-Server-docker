@@ -61,7 +61,12 @@ if [ "$Autoupdate" == "true" ]
 fi
 #创建MOD WORLD目录
 cd /home/tModLoader
-mkdir Mods Mods/ModPacks Worlds
+if [ -d "Mods" ]
+    then
+    else
+    mkdir Mods Mods/ModPacks Worlds
+fi
+#自定义配置文件提前放入
 cd /root
 if [ -f "serverconfig.txt" ]
     then
