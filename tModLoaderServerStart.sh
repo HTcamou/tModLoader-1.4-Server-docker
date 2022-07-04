@@ -23,7 +23,7 @@ if [ "$Autoupdate" == "true" ]
                 #下载最新版压缩包
                 wget https://github.com/tModLoader/tModLoader/releases/download/$newversion/tModLoader.zip
                 echo "Completed download"
-                if [ -f /home/tModLoade/serverconfig.txt ]
+                if [ -f /home/tModLoader/serverconfig.txt ]
                     then 
                         #覆盖解压，不解压serverconfig配置文件（保留配置文件）
                         unzip -o tModLoader.zip -d tModLoader/ -x "serverconfig.txt"
@@ -46,7 +46,7 @@ if [ "$Autoupdate" == "true" ]
                 #下载最新版压缩包
                 wget https://github.com/tModLoader/tModLoader/releases/download/$TMOD_VERSION/tModLoader.zip
                 echo "Completed download"
-                if [ -f /home/tModLoade/serverconfig.txt ]
+                if [ -f /home/tModLoader/serverconfig.txt ]
                     then 
                         #覆盖解压，不解压serverconfig配置文件（保留配置文件）
                         unzip -o tModLoader.zip -d tModLoader/ -x "serverconfig.txt"
