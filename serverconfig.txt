@@ -49,10 +49,10 @@
 #password=p@ssword
 
 #Set the message of the day
-motd=Please don  cut the purple trees!
+motd=Please don't cut the purple trees!
 
 #Sets the folder where world files will be stored
-#worldpath=/home/tModLoader/Worlds
+worldpath=/home/tModLoader/Worlds
 
 #The location of the banlist. Defaults to "banlist.txt" in the working directory.
 #banlist=banlist.txt
@@ -73,5 +73,5 @@ motd=Please don  cut the purple trees!
 #Default system priority 0:Realtime, 1:High, 2:AboveNormal, 3:Normal, 4:BelowNormal, 5:Idle
 priority=1
 
-#modpath=/home/tModLoader/Mods
+modpath=/home/tModLoader/Mods
 
